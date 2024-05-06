@@ -1,0 +1,69 @@
+.card{
+    width: 90%;
+    max-width: 469px;
+    background: linear-gradient(135deg, #00feba,#5b548a);
+    color: white;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+
+}
+.card_body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.card_body input{
+    border: 0;
+    outline: 0;
+    background: white;
+    color: rgba(167, 202, 192, 0.637);
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 50px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 18px;
+}
+.card_body button{
+    border: 0;
+    outline: 0;
+    background: white;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.card_body button i{
+    width: 16px;
+}
+.heading{
+    color: #bccd21;
+}
+.weather-icon{
+   width:120px;
+    margin-top:30px ;
+    border-radius: 50%;
+    background:linear-gradient(135deg, #00feba,#5b548a) ;
+}
+.city{
+    color: chartreuse;
+}
+.humidityicon{
+    height: 40px;
+}
+.weather{
+    display: none;
+   
+}
+.error{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgb(231, 10, 10);
+    display: none;
+}
